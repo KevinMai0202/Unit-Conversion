@@ -13,12 +13,15 @@ The main program will display a list menu of what program can convert. The user 
 Other microservice programs are constantly reading in the background, waiting for value entered in the input txt file. 
 First, the main program prompts the user to select the type of unit conversion.
 Invalid selection will alert user invalid input and back to menu to prompt user to re-enter again.
+
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/19a26162-fcf7-4308-a5e6-525799f9a343)
 
 After accepting the unit conversion, then prompt user to enter the numeric value they want to convert.
+
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/06a79c3a-0d71-4c5b-905c-22f96a2f2f16)
 
 Invalid input will alert the user, return to menu, and prompt user to restart the process.
+
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/ddd507f8-e0ed-4208-a44c-fce3c1431885)
 
 After accepting the value, it will write the value in the input txt file, other programs will be constantly reading, after reading the input txt file, it will call the microservice program to do the calculation and conversion, write the calculation result on the output txt file. Then the main program opens and reads the output txt file, and finally the main program will display the result. And the process repeats. 
