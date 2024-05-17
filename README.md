@@ -3,6 +3,7 @@ Unit Conversion
 
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/8a35c89a-1ce8-454f-8903-51b486de8639)
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/d6674a6a-e89c-45b4-b2c7-af991a50b62e)
+
 The program is communicated through text file Json, similar to the first assignment of microservices warm up. 
 After running all the microservice programs and main program.
 The main program will display a list menu of what program can convert. The user interface allows a user to input their value in the command line.  
@@ -25,6 +26,7 @@ After accepting the value, it will write the value in the input txt file, other 
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/7c367901-e4b7-41c6-b350-cdb984883bb1)
 
 For example, after the user enters a valid input, it will write the value in the input txt file (height_input.txt), in this example is 100.
+
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/735e382f-bf81-4798-b3fb-db2445732ff4)
 
 Making the request to convert the value 100. The height program that is constantly listening in the background, receives and reads the data from height_input.txt, then it calls height function to convert cm to inches. It will calculate 100 * 0.393701 = 39.37. After conversion, it will write the result (39.27) in output txt file (height_output.txt).
@@ -32,9 +34,11 @@ Making the request to convert the value 100. The height program that is constant
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/839a875e-b8b2-4c3c-a096-bff9eebdc9ee)
 
 The main program reads the output txt file (height_output.txt), grabs the result and displays it. 
+
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/b8db56f0-297d-4f1f-9956-c0a70b24b65f)
 
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/57b6b82b-83dd-49ed-91c1-b4ed099afcae)
+
 Another example for weight conversion, after the user enters valid input, it will write the value in the input txt file (weight_input.txt), in this example is 1000. 
 
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/627ed01a-3451-4393-a28d-e2f6e00d0366)
