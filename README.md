@@ -34,7 +34,7 @@ After accepting the value, it will write the value in the input txt file, other 
 
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/7c367901-e4b7-41c6-b350-cdb984883bb1)
 
-For example, after the user enters a valid input, it will write the value in the input txt file (height_input.txt), in this example is 100.
+For example, Height conversion after the user enters a valid input, it will write the value in the input txt file (height_input.txt), in this example is 100.
 
 ![image](https://github.com/KevinMai0202/Unit-Conversion/assets/129697366/735e382f-bf81-4798-b3fb-db2445732ff4)
 
